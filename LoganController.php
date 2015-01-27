@@ -16,6 +16,6 @@ class LoganController extends Controller
 	 $name = $model->name;
 	 Yii::$app->session->setFlash("success","You have entered data correctly $name");
 	}
-	return $this->render('loganform', ['model' => $model,]);
+	return $this->render('LoganForm', ['model' => $model,]);
 	}
 }
